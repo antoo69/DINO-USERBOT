@@ -83,7 +83,7 @@ async def typewriter(typew):
                      "╬═╬ \n"
                      "╬═╬ \n"
                      "╬═╬ \n"
-                     "╬═╬ HALO ANAK YATIM,AKU DATANG :) \n"
+                     "╬═╬ HALO ANAK SETAN,AKU DATANG :) \n"
                      "╬═╬☻/ \n"
                      "╬═╬/▌ \n"
                      "╬═╬/ \\ \n")
@@ -406,7 +406,7 @@ async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("**Mutualan Yukkk!...**")
     sleep(2)
-    await typew.edit("𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌= [𝐓𝐄𝐊𝐀𝐍](https://www.instagram.com/ramadh20?r=nametag)")
+    await typew.edit("ɪɴsᴛᴀɢʀᴀᴍ = [ᴛᴇᴋᴀɴ](https://www.instagram.com/muhammadwaly_)")
 
 
 @register(outgoing=True, pattern='^.fck(?: |$)(.*)')
