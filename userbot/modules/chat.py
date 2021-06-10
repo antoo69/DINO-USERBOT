@@ -112,7 +112,7 @@ async def kickme(leave):
                      "──▄▀█▄▄▄─────▄▀█▄▄▄\n"
                      "▄▀──█▄▄──────█─█▄▄\n"
                      "─▄▄▄▀──▀▄───▄▄▄▀──▀▄\n"
-                     "─▀───────▀▀─▀───────▀▀\n`Kabur ajalah ngentot,Awkwokwok..`")
+                     "─▀───────▀▀─▀───────▀▀\n`Kabur ajalah anjg,Awkwokwok..`")
     await leave.client.kick_participant(leave.chat_id, 'me')
 
 
