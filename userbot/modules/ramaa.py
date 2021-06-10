@@ -44,34 +44,31 @@ async def typewriter(typew):
                      "\n**Permisi Aku mau nimbrung Kk..**")
 
 
-@register(outgoing=True, pattern='^.geez(?: |$)(.*)')
+@register(outgoing=True, pattern='^.tem(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**Vicky Peler☑️**")
-    await typew.edit("**Vicky Peler✅**")
+    await typew.edit("**Jordhy Fakboy☑️**")
+    await typew.edit("**Jordhy Fakboy✅**")
     sleep(1)
-    await typew.edit("**Toni Gilaa☑️**")
-    await typew.edit("**Toni Gilaa✅**")
+    await typew.edit("**Jeje Stres☑️**")
+    await typew.edit("**Jeje Stres✅**")
     sleep(2)
-    await typew.edit("**Karina Depresi☑️**")
-    await typew.edit("**Karina Depresi✅**")
+    await typew.edit("**Aci Bedegong☑️**")
+    await typew.edit("**Aci Bedegong✅**")
     sleep(2)
-    await typew.edit("**Yunus Gajelas☑️**")
-    await typew.edit("**Yunus Gajelas✅**")
+    await typew.edit("**Dila Bucin☑️**")
+    await typew.edit("**Dila Bucin✅**")
     sleep(2)
-    await typew.edit("**Adel GJM!☑️**")
-    await typew.edit("**Adel GJM!✅**")
+    await typew.edit("**Micin Buduh!☑️**")
+    await typew.edit("**Micin Buduh!✅**")
     sleep(2)
-    await typew.edit("**Jia GJB!☑️**")
-    await typew.edit("**Jia GJB!✅**")
+    await typew.edit("**Boy MengGalau!☑️**")
+    await typew.edit("**Boy MengGalau!✅**")
     sleep(2)
-    await typew.edit("**Imeh,MengRibet☑️**")
-    await typew.edit("**Imeh,MengRibet✅**")
+    await typew.edit("**Sirli PHP☑️**")
+    await typew.edit("**Sirli PHP✅**")
     sleep(2)
-    await typew.edit("**Jeje,Mengintil☑️**")
-    await typew.edit("**Jeje,Mengintil✅**")
-    sleep(3)
-    await typew.edit("**CUMA RAMA YANG BENER!**")
+    await typew.edit("**CUMA WALY YANG BENER!**")
 
 # Create by myself @localheart
 
@@ -79,8 +76,8 @@ CMD_HELP.update({
     "rambot":
     "`.rambot`\
     \nUsage: menampilkan alive bot.\
-    \n\n`.sadboy`\
+    \n\n`.sadboy` ; `.fakboy`\
     \nUsage: hiks\
-    \n\n`.punten` ; `.geez`\
+    \n\n`.punten` ; `.tem`\
     \nUsage: misi."
 })
