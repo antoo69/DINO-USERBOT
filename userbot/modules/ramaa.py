@@ -15,6 +15,22 @@ async def typewriter(typew):
 # Create by myself @localheart
 
 
+@register(outgoing=True, pattern='^.fakboy(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    sleep(2)
+    await typew.edit("`hai cantik`")
+    sleep(2)
+    await typew.edit("`kamu kenapa?`")
+    sleep(1)
+    await typew.edit("`sini cerita sama oom`")
+    sleep(1)
+    await typew.edit("`jangan sedih lagi ya :)`")
+    sleep(1)
+    await typew.edit("`nanti oom jajanin ip 12`")
+# Create by myself @localheart
+
+
 @register(outgoing=True, pattern='^.punten(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
