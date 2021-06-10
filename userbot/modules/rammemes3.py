@@ -84,7 +84,7 @@ async def typewriter(typew):
     sleep(2)
     await typew.edit("`\n(\\_/)`"
                      "`\n(●_●)`"
-                     "`\n💔<\\  *KENTOD`")
+                     "`\n💔<\\  *PANTEK`")
 
 
 @bot.on(events.NewMessage(pattern=r"\.(.*)", outgoing=True))
