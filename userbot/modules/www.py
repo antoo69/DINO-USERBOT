@@ -57,12 +57,12 @@ async def redis(pong):
     await pong.edit("__Bentar...__")
     await pong.edit("__Bentar....__")
     await pong.edit("__Nah!!__")
-    await pong.edit("💫")
+    await pong.edit("🥂")
     await asyncio.sleep(3)
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(f"**╭━━━━━━━━━━━━━━━━━╮** \n"
-                    f"**        ✨ 𝗥 𝗔 𝗠 - 𝗨 𝗕 𝗢 𝗧 ✨** \n"
+                    f"**        🥂 ᴊ ᴀ ᴄ ᴋ ʙ ᴏ ᴛ 🥂** \n"
                     f"**  ✠╼━━━━━━❖━━━━━━━✠** \n"
                     f"**        • sɪɢɴᴀʟ  :** `%sms` \n"
                     f"**        • ᴏᴡɴᴇʀ   :** `{ALIVE_NAME}` \n"
@@ -127,12 +127,12 @@ async def redis(pong):
     await pong.edit("__Pong..__")
     await pong.edit("__Ping...__")
     await pong.edit("__Pong....__")
-    await pong.edit("🌟")
+    await pong.edit("🥂")
     await asyncio.sleep(2)
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(f"**╭✠╼━━━━━━❖━━━━━━━✠╮**\n"
-                    f"**            ⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐**\n"
+                    f"**            🥂JACKBOT🥂**\n"
                     f"**╰✠╼━━━━━━❖━━━━━━━✠╯**\n"
                     f"** •  Sɪɢɴᴀʟ   :** "
                     f"`%sms` \n"
@@ -147,11 +147,11 @@ async def redis(pong):
     """ For .ping command, ping the userbot from any chat.  """
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    await pong.edit("NGENTOT!")
+    await pong.edit("BUKU AMALAN")
     await asyncio.sleep(1)
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**KONTOOLLLL!!**\n**KEKUATAN KONTOL** : `%sms`\n**DURASI KONTOL** : `{uptime}🕛`" % (duration))
+    await pong.edit(f"**AMALAN BURUK**\n**DOSA SEKARANG** : `%sms`\n**DOSA BERTAMBAH** : `{uptime}🕛`" % (duration))
 
 
 @register(outgoing=True, pattern="^Speed$")
@@ -178,7 +178,7 @@ async def speedtst(spd):
                    f"`{result['ping']}` \n"
                    "✧ **ISP:** "
                    f"`{result['client']['isp']}` \n"
-                   "✧ **BOT:** ⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐")
+                   "✧ **BOT:** 🥂JACKBOT🥂")
 
 
 def speed_convert(size):
@@ -200,7 +200,7 @@ async def pingme(pong):
     start = datetime.now()
     await pong.edit("PONG")
     await asyncio.sleep(1)
-    await pong.edit("✨")
+    await pong.edit("🥂")
     await asyncio.sleep(2)
     end = datetime.now()
     duration = (end - start).microseconds / 9000
