@@ -82,11 +82,11 @@ async def gben(userbot):
     sender = await dc.get_sender()
     me = await dc.client.get_me()
     if not sender.id == me.id:
-        dark = await dc.reply("`Memulai Proses Gban Si Ngentot!`")
+        dark = await dc.reply("`Memulai Proses Gban Tersangka Sangean!`")
     else:
-        dark = await dc.edit("`Memproses Global Banned Si ngentot ini!!!`")
+        dark = await dc.edit("`Tuhan Maha Pengampun,Tapi Aku Tidak`")
     me = await userbot.client.get_me()
-    await dark.edit(f"`Global Banned Akan Segera Aktif, ngentot!!!`")
+    await dark.edit(f"`Global Banned Akan Segera Aktif, Bye!!`")
     my_mention = "[{}](tg://user?id={})".format(me.first_name, me.id)
     f"@{me.username}" if me.username else my_mention
     await userbot.get_chat()
@@ -106,9 +106,9 @@ async def gben(userbot):
     except BaseException:
         return await dark.edit(f"`Terjadi Kesalahan`")
     if user:
-        if user.id == 1779447750:
+        if user.id == 914104574:
             return await dark.edit(
-                f"`LU GABISA GBAN RAMA, DIA YANG BIKIN GUA NGENTOTTT!!!`"
+                f"`LU GABISA GBAN WALY, DIA YANG BIKIN GUA TOLOL!!!`"
             )
         try:
             from userbot.modules.sql_helper.gmute_sql import gmute
