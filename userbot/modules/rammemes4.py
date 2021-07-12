@@ -406,7 +406,7 @@ async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("**Mutualan Yukkk!...**")
     sleep(2)
-    await typew.edit("ɪɴsᴛᴀɢʀᴀᴍ = [ᴛᴇᴋᴀɴ](https://www.instagram.com/muhammadwaly_)")
+    await typew.edit("ɪɴsᴛᴀɢʀᴀᴍ = [ᴛᴇᴋᴀɴ ᴅɪsɪɴɪ](https://www.instagram.com/muhammadwaly_)")
 
 
 @register(outgoing=True, pattern='^.fck(?: |$)(.*)')
