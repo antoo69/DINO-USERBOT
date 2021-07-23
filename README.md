@@ -19,7 +19,7 @@
 ## JOIN DULU SINI!!:
 
 <a href="https://t.me/temanesiaonline"><img src="https://img.shields.io/badge/Join-%20TEMANESIA ONLINE-black.svg?style=for-the-badge&logo=Telegram"></a>
-<a href="https://t.me/teman_random"><img src="https://img.shields.io/badge/Channel-%20RACAUAN HATI-purple.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/racauanhatii"><img src="https://img.shields.io/badge/Channel-%20RACAUAN HATI-purple.svg?style=for-the-badge&logo=Telegram"></a>
 ##
 
 # JANGAN BINGUNG BUAT DEPLOY!
@@ -28,16 +28,6 @@
 
 <h3 align="center">REPO JACKBOT DIBUAT HANYA UNTUK FUN SAJA.</h3>
 <p align="center">&nbsp;</p>
-
-
-
-
-## Bagaimana Cara Deploy?
-
-
-* **VIDEO TUTORIAL DEPLOY!** 🔧
-[<img src=https://telegra.ph/file/37c7a54f72b2be24d6793.jpg>](https://t.me/UserbotChannel/36)
-
 ##
 ##
 ##
