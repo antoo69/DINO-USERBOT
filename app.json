@@ -1,7 +1,7 @@
 {
-  "name": "RAM-UBOT",
-  "description": "[RAM-UBOT] USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
-  "logo": "https://telegra.ph/file/be5a4a2cb6aac37ca7945.jpg",
+  "name": "JACKBOT",
+  "description": "[JACKBOT] USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
+  "logo": "https://telegra.ph/file/9325d76ffa5c59276d1e4.jpg",
   "keywords": [
     "telegram",
     "userbot",
@@ -9,9 +9,9 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/ramadhani892/RAM-UBOT",
-  "telegram": "https://t.me/Ramadhaniiiiiii1",
-  "success_url": "https://t.me/teman_random",
+  "repository": "https://github.com/jackblose/JACKBOT",
+  "telegram": "https://t.me/enjoyyourmilk",
+  "success_url": "https://t.me/temanesiaonline",
   "stack": "container",
   "env": {
     "API_KEY": {
@@ -41,7 +41,7 @@
       "required": true
     },
     "BOTLOG_CHATID": {
-      "description": "Masuk @ramubotspam atau Buatlah sebuah grup private/public masukan @goku_isbot lalu ketik /id, Salin dan hapus id dibawah ini, Lalu tempel.",
+      "description": "Masuk @tutorialjackbot atau Buatlah sebuah grup private/public masukan @shizukamanagebot lalu ketik /id, Salin dan hapus id dibawah ini, Lalu tempel.",
       "value": "-1001122897608",
       "required": true
     },
@@ -151,7 +151,7 @@
     },
     "DEFAULT_BIO": {
       "description": "Default Bio Mu.",
-      "value": "🌟RAM-UBOT🌟",
+      "value": "🥂JACKBOT🥂",
       "required": false
     },
     "ALIVE_NAME": {
