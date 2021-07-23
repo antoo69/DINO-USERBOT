@@ -158,7 +158,7 @@
       "description": "Nama untuk menunjukan pesan .alive",
       "required": false
     },
-    "RAM_TEKS_KOSTUM": {
+    "JACK_TEKS_KOSTUM": {
       "description": "Kustom Pesan Alive Mu Untuk Perintah .ram (Isi Terserah)",
       "value": "ㅤ",
       "required": false
@@ -168,8 +168,8 @@
       "required": false
     },
     "G_BAN_LOGGER_GROUP": {
-      "description": "Masuk @ramubotspam Atau Buatlah Sebuah Grup Private/Public Lalu Masukkan @goku_isbot Lalu Ketik /id, Salin dan hapus id dibawah ini lalu tempel.",
-      "value": "-1001122897608",
+      "description": "Masuk @tutorialjackbot Atau Buatlah Sebuah Grup Private/Public Lalu Masukkan @shizukamanagebot Lalu Ketik /id, Salin dan hapus id dibawah ini lalu tempel.",
+      "value": "-10011228283",
       "required": false
     },
     "G_DRIVE_DATA": {
