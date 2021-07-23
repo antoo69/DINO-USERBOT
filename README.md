@@ -23,7 +23,7 @@
 ##
 
 # JANGAN BINGUNG BUAT DEPLOY!
-[![Deploy](https://telegra.ph/file/be5a4a2cb6aac37ca7945.jpg)](https://t.me/tutorialjackbot)
+[![Deploy](https://tele
 
 
 <h3 align="center">REPO JACKBOT DIBUAT HANYA UNTUK FUN SAJA.</h3>
