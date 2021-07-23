@@ -53,7 +53,7 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
         if HEROKU_APP_NAME is None:
             await event.edit(
                 '`[HEROKU]: Harap Siapkan Variabel` **HEROKU_APP_NAME** `'
-                ' untuk dapat deploy perubahan terbaru dari RAM-USERBOT.`'
+                ' untuk dapat deploy perubahan terbaru dari JACK-BOT.`'
             )
             repo.__del__()
             return
@@ -63,11 +63,11 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
                 break
         if heroku_app is None:
             await event.edit(
-                f'{txt}\n`Kredensial Heroku tidak valid untuk deploy RAM-USERBOT dyno.`'
+                f'{txt}\n`Kredensial Heroku tidak valid untuk deploy JACK-BOT dyno.`'
             )
             return repo.__del__()
         await event.edit('`[HEROKU]:'
-                         '\nSedang Dalam proses Update RAM-USERBOT, Mohon Menunggu 7-8 Menit`'
+                         '\nSedang Dalam proses Update JACK-BOT, Mohon Menunggu 7-8 Menit`'
                          )
         ups_rem.fetch(ac_br)
         repo.git.reset("--hard", "FETCH_HEAD")
