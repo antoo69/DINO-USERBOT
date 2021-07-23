@@ -11,7 +11,7 @@
 <a href="https://t.me/tutorialjackbot"><img src="https://img.shields.io/badge/KODE%20PENILAIAN-A+-blue.svg?style=for-the-badge&logo=Factor.">
 
 ## Pemilik Repo: Jack
-[<img src="https://media0.giphy.com/media/ya4eevXU490Iw/giphy.gif">](https://t.me/maafgausahsokap)
+[<img src="https://media0.giphy.com/media/ya4eevXU490Iw/giphy.gif">](https://t.me/enjoyyourmilk)
 ##
 ##
 # KALO FORK TUH KASIH BINTANG YA!
