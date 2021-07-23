@@ -8,26 +8,25 @@
 
 ![VIEWS](https://komarev.com/ghpvc/?username=ramadhani892)
 
-<a href="https://t.me/ramubotspam"><img src="https://img.shields.io/badge/KODE%20PENILAIAN-A+-blue.svg?style=for-the-badge&logo=Factor.">
+<a href="https://t.me/tutorialjackbot"><img src="https://img.shields.io/badge/KODE%20PENILAIAN-A+-blue.svg?style=for-the-badge&logo=Factor.">
 
-## Pemilik Repo: ラマダン
+## Pemilik Repo: Jack
 [<img src="https://media0.giphy.com/media/ya4eevXU490Iw/giphy.gif">](https://t.me/maafgausahsokap)
 ##
 ##
-# KALO FORK TUH KASIH BINTANG YA TOLOL!
+# KALO FORK TUH KASIH BINTANG YA!
 
+## JOIN DULU SINI!!:
 
-## JOIN DULU TOT!!:
-
-<a href="https://t.me/ramubotinfo"><img src="https://img.shields.io/badge/Channel-%20RAM UBOT-black.svg?style=for-the-badge&logo=Telegram"></a>
-<a href="https://t.me/teman_random"><img src="https://img.shields.io/badge/Join-TEMAN%20RANDOM-purple.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/temanesiaonline"><img src="https://img.shields.io/badge/Join-%20TEMANESIA ONLINE-black.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/teman_random"><img src="https://img.shields.io/badge/Channel-%20RACAUAN HATI-purple.svg?style=for-the-badge&logo=Telegram"></a>
 ##
 
 # JANGAN BINGUNG BUAT DEPLOY!
-[![Deploy](https://telegra.ph/file/be5a4a2cb6aac37ca7945.jpg)](https://t.me/ramubotspam)
+[![Deploy](https://telegra.ph/file/be5a4a2cb6aac37ca7945.jpg)](https://t.me/tutorialjackbot)
 
 
-<h3 align="center">REPO RAM-UBOT DIBUAT KARNA LAGI GABUT AJA SI HAHA.</h3>
+<h3 align="center">REPO JACKBOT DIBUAT HANYA UNTUK FUN SAJA.</h3>
 <p align="center">&nbsp;</p>
 
 
@@ -39,17 +38,11 @@
 * **VIDEO TUTORIAL DEPLOY!** 🔧
 [<img src=https://telegra.ph/file/37c7a54f72b2be24d6793.jpg>](https://t.me/UserbotChannel/36)
 
-### AMBIL STRING DI BAWAH INI:
-
- [![RAM-UBOT-STRING](https://replit.com/badge/github/@ramadhani892/RAM-UBOT)](https://replit.com/@ramadhani892/RAM-UBOT-STRING)
-
-
-
 ##
 ##
 ##
 
-<a href="https://heroku.com/deploy?template=https://github.com/ramadhani892/RAM-UBOT.git"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=flat&logo=Heroku" width="325" height="50.100" />
+<a href="https://heroku.com/deploy?template=https://github.com/jackblose/JACKBOT.git"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=flat&logo=Heroku" width="325" height="50.100" />
 
 <br>
 </p>
