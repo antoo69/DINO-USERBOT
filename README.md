@@ -1,12 +1,11 @@
 <p align="center">
-  <a href="https://github.com/jackblose/JACKBOT/fork">
+  <a href="https://github.com/jackblose/DINO-USERBOT">
     
   </a>
-  <a href="https://github.com/jackblose/JACKBOT">
+  <a href="https://github.com/jackblose/DINO-USERBOT">
   </a>
 </p>  
 
-![VIEWS](https://komarev.com/ghpvc/?username=ramadhani892)
 
 <a href="https://t.me/tutorialjackbot"><img src="https://img.shields.io/badge/KODE%20PENILAIAN-A+-blue.svg?style=for-the-badge&logo=Factor.">
 
@@ -23,7 +22,7 @@
 
 
 
-<h3 align="center">REPO JACKBOT DIBUAT HANYA UNTUK FUN SAJA.</h3>
+<h3 align="center">REPO DINO-USERBOT ADALAH EFEK SAMPING DARI INSOMIA SAYA.</h3>
 <p align="center">&nbsp;</p>
 
 
