@@ -96,7 +96,7 @@ async def on_afk(event):
     global afk_time
     global last_afk_message
     global afk_start
-    global afk_end
+    global afk_end 
     back_alivee = datetime.now()
     afk_end = back_alivee.replace(microsecond=0)
     if afk_start != {}:
@@ -108,10 +108,10 @@ async def on_afk(event):
         msg = None
         if reason:
             message_to_reply = (
-                f"⎝⎝✧𝐁𝐎𝐓 𝐌𝐄𝐒𝐒𝐀𝐆𝐄✧⎠⎠\n\n༺𝐎𝐅𝐅𝐋𝐈𝐍𝐄༻\n╭✠╼━━━━━━━━━━━━\n**▸ {ALIVE_NAME} LAGI OFF DULU**\n"
-                f"**▸ ᴋᴀʀᴇɴᴀ :** `{reason}`\n╰✠╼━━━━━━━━━")
+                f"𝐎𝐅𝐅𝐋𝐈𝐍𝐄𓆙\n**▸ {ALIVE_NAME} LAGI SIBUK**\n"
+                f"**▸ ᴋᴀʀᴇɴᴀ𓆙 :** `{reason}`")
         else:
-            message_to_reply = f"⎝⎝✧𝐁𝐎𝐓 𝐌𝐄𝐒𝐒𝐀𝐆𝐄✧⎠⎠\n\n༺𝐎𝐅𝐅𝐋𝐈𝐍𝐄༻\n╭✠╼━━━━━━━━━━━━\n**▸ {ALIVE_NAME} LAGI OFF DULU**\n╰✠╼━━━━━━━━━"
+            message_to_reply = f"𝐎𝐅𝐅𝐋𝐈𝐍𝐄𓆙\n**▸ {ALIVE_NAME} LAGI SIBUK**\n"
         try:
             if pic.endswith((".tgs", ".webp")):
                 msg = await event.reply(file=pic)
