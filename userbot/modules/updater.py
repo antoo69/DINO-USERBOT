@@ -53,7 +53,7 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
         if HEROKU_APP_NAME is None:
             await event.edit(
                 '`[HEROKU]: Harap Siapkan Variabel` **HEROKU_APP_NAME** `'
-                ' untuk dapat deploy perubahan terbaru dari JACK-BOT.`'
+                ' untuk dapat deploy perubahan terbaru dari DINO BOT.`'
             )
             repo.__del__()
             return
@@ -63,11 +63,11 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
                 break
         if heroku_app is None:
             await event.edit(
-                f'{txt}\n`Kredensial Heroku tidak valid untuk deploy JACK-BOT dyno.`'
+                f'{txt}\n`Kredensial Heroku tidak valid untuk deploy DINO BOT dyno.`'
             )
             return repo.__del__()
         await event.edit('`[HEROKU]:'
-                         '\nSedang Dalam proses Update JACK-BOT, Mohon Menunggu 7-8 Menit`'
+                         '\nSedang Dalam proses Update DINO BOT, Mohon Menunggu 7-8 Menit`'
                          )
         ups_rem.fetch(ac_br)
         repo.git.reset("--hard", "FETCH_HEAD")
@@ -91,14 +91,14 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
             await asyncio.sleep(5)
             return await event.delete()
         else:
-            await event.edit("`JACKBOT Berhasil Di Deploy!\n" "Restarting, Mohon Menunggu.....`")
+            await event.edit("`DINO BOT Berhasil Di Deploy!\n" "Restarting, Mohon Menunggu.....`")
             await asyncio.sleep(15)
             await event.delete()
 
         if BOTLOG:
             await event.client.send_message(
                 BOTLOG_CHATID, "#BOT \n"
-                "`JACKBOT Berhasil Di Update`")
+                "`DINO BOT Berhasil Di Update`")
 
     else:
         await event.edit('`[HEROKU]:'
@@ -115,9 +115,9 @@ async def update(event, repo, ups_rem, ac_br):
     except GitCommandError:
         repo.git.reset("--hard", "FETCH_HEAD")
     await update_requirements()
-    await event.edit('**🥂JACKBOT🥂** `Berhasil Di Update!`')
+    await event.edit('**🥂DINO BOT🥂** `Berhasil Di Update!`')
     await asyncio.sleep(1)
-    await event.edit('**🥂JACKBOT🥂** `Di Restart....`')
+    await event.edit('**🥂DINO BOT🥂** `Di Restart....`')
     await asyncio.sleep(1)
     await event.edit('`Mohon Menunggu Beberapa Detik...ツ`')
     await asyncio.sleep(10)
@@ -126,7 +126,7 @@ async def update(event, repo, ups_rem, ac_br):
     if BOTLOG:
         await event.client.send_message(
             BOTLOG_CHATID, "#BOT \n"
-            "**RAM-UBOT Telah Di Perbarui ツ**")
+            "**DINO BOT Telah Di Perbarui ツ**")
         await asyncio.sleep(100)
         await event.delete()
 
@@ -188,13 +188,13 @@ async def upstream(event):
 
     if changelog == '' and force_update is False:
         await event.edit(
-            f'\n**🥂JACKBOT🥂 Sudah Versi Terbaru**\n')
+            f'\n**🥂DINO BOT🥂 Sudah Versi Terbaru**\n')
         await asyncio.sleep(15)
         await event.delete()
         return repo.__del__()
 
     if conf is None and force_update is False:
-        changelog_str = f'**Pembaruan Untuk 🥂JACKBOT🥂 [{ac_br}]:\n\n🖤Pembaruan:**\n`{changelog}`'
+        changelog_str = f'**Pembaruan Untuk 🥂DINO BOT🥂 [{ac_br}]:\n\n🖤Pembaruan:**\n`{changelog}`'
         if len(changelog_str) > 4096:
             await event.edit("`Changelog Terlalu Besar, Lihat File Untuk Melihatnya.`")
             file = open("output.txt", "w+")
@@ -208,18 +208,18 @@ async def upstream(event):
             remove("output.txt")
         else:
             await event.edit(changelog_str)
-        return await event.respond('**Perintah Untuk Update 🥂JACKBOT🥂**\n >`.update one`\n >`.update all`\n\n__Untuk Meng Update Fitur Terbaru Dari 🥂JACKBOT🥂.__')
+        return await event.respond('**Perintah Untuk Update 🥂 DINO BOT🥂**\n >`.update one`\n >`.update all`\n\n__Untuk Meng Update Fitur Terbaru Dari 🥂 DINO BOT🥂.__')
 
     if force_update:
         await event.edit(
             '`Sinkronisasi Paksa Ke Kode Userbot Stabil Terbaru, Harap Tunggu .....`')
     else:
-        await event.edit('`❤️ Proses Update JACKBOT, Loading....1%`')
-        await event.edit('`💛 Proses Update JACKBOT, Loading....20%`')
-        await event.edit('`💚 Proses Update JACKBOT, Loading....35%`')
-        await event.edit('`💙 Proses Update JACKBOT, Loading....77%`')
-        await event.edit('`💜 Proses Update JACKBOT, Updating...90%`')
-        await event.edit('`🖤 Proses Update JACKBOT, Mohon Menunggu....100%`')
+        await event.edit('`❤️ Proses Update DINO BOT, Loading....1%`')
+        await event.edit('`💛 Proses Update DINO BOT, Loading....20%`')
+        await event.edit('`💚 Proses Update DINO BOT, Loading....35%`')
+        await event.edit('`💙 Proses Update DINO BOT, Loading....77%`')
+        await event.edit('`💜 Proses Update DINO BOT, Updating...90%`')
+        await event.edit('`🖤 Proses Update DINO BOT, Mohon Menunggu....100%`')
     if conf == "now":
         await update(event, repo, ups_rem, ac_br)
         await asyncio.sleep(10)
@@ -234,9 +234,9 @@ async def upstream(event):
 CMD_HELP.update({
     'update':
     ".update"
-    "\nUsage: Untuk Melihat Pembaruan Terbaru JACKBOT."
+    "\nUsage: Untuk Melihat Pembaruan Terbaru DINO BOT."
     "\n\n.update one"
-    "\nUsage: Memperbarui JACKBOT."
+    "\nUsage: Memperbarui DINO BOT."
     "\n\n.update all"
-    "\nUsage: Memperbarui JACKBOT Dengan Cara Deploy Ulang."
+    "\nUsage: Memperbarui DINO BOT Dengan Cara Deploy Ulang."
 })
