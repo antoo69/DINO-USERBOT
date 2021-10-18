@@ -9,7 +9,7 @@
 
 <a href="https://t.me/tutorialjackbot"><img src="https://img.shields.io/badge/KODE%20PENILAIAN-A+-blue.svg?style=for-the-badge&logo=Factor.">
 
-## Pemilik Repo: Jack
+## Pemilik Repo: DINO
 [<img src="https://media0.giphy.com/media/ya4eevXU490Iw/giphy.gif">](https://t.me/enjoyyourmilk)
 ##
 ##
@@ -22,7 +22,7 @@
 
 
 
-<h3 align="center">REPO DINO-USERBOT ADALAH EFEK SAMPING DARI INSOMIA SAYA.</h3>
+<h3 align="center">REPO DINO-USERBOT ADALAH EFEK SAMPING DARI INSOMNIA SAYA.</h3>
 <p align="center">&nbsp;</p>
 
 
